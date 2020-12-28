@@ -258,9 +258,9 @@ public class TelaEquacao extends javax.swing.JFrame {
         lblDelta.setText(String.format("%.1f", d));
         
         if (d < 0) {
-            lblRaiz.setText("Não exixte raízes Reias");
+            lblRaiz.setText("Não existe raízes Reais");
         } else{
-            lblRaiz.setText("Existe raízes reias");
+            lblRaiz.setText("Existe raízes reais");
         }
         
         panResultado.setVisible(true);
